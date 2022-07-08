@@ -266,6 +266,10 @@ header {
   margin: 0 auto;
 }
 
+.service__title {
+  margin-bottom: 1em;
+}
+
 :focus {
   outline: 3px solid var(--clr-act);
   outline-offset: 3px;

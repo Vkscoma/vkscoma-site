@@ -266,7 +266,7 @@ header {
   margin: 0 auto;
 }
 
-.service__title {
+#service > div > div > h3 {
   margin-bottom: 1em;
 }
 

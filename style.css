@@ -370,6 +370,10 @@ header {
   color: var(--clr-act);
 }
 
+.portfolio-link:hover {
+  opacity: 0.5;
+}
+
 /* footer */
 .footer {
   background-color: #111;

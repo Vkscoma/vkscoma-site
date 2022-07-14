@@ -342,6 +342,7 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   max-width: 650px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .portfolio__item {

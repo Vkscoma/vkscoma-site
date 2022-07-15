@@ -48,7 +48,7 @@ body {
   line-height: 1.6;
 }
 
-header, .intro {
+body {
 background-image: linear-gradient(to right top, #536cf4, #496ce2, #446bcf, #4369bc, #4566a8, #44609a, #435b8c, #42557e, #3c4c73, #364469, #2f3b5e, #293354);
 }
 

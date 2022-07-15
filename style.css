@@ -168,6 +168,7 @@ header {
   right: 0.5em;
   cursor: pointer;
   z-index: 1000;
+  color: #fff;
 }
 
 .nav-toggle:focus {

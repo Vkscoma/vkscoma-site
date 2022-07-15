@@ -310,11 +310,14 @@ header {
   }
 }
 
+section#about.about-me {
+  background-image: linear-gradient(to right top, #14d1f1, #0dc2de, #08b3cb, #04a4b9, #0296a7, #0f8e9c, #168592, #1b7d88, #257882, #2c737c, #316f76, #356a70);
+}
+
 .about-me {
   max-width: 1000px;
   margin: 0 auto;
   align-items: center;
-  background-image: linear-gradient(to right top, #14d1f1, #0dc2de, #08b3cb, #04a4b9, #0296a7, #0f8e9c, #168592, #1b7d88, #257882, #2c737c, #316f76, #356a70);
 }
 
 .about-me__img {

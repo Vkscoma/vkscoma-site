@@ -48,10 +48,6 @@ body {
   line-height: 1.6;
 }
 
-body {
-  background-image: linear-gradient(to right bottom, #536cf4, #4d65ed, #465fe7, #4058e0, #3952da, #314fd1, #2a4cc7, #2249be, #1b47af, #1845a0, #184291, #1b3f82);
-}
-
 section {
   padding: 5em 2em;
 }

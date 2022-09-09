@@ -41,8 +41,8 @@ html {
 /* General Styles */
 
 body {
-  background-color: var(--clr-dark);
-  color: var(--clr-light);
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
@@ -92,6 +92,7 @@ strong {
 
 .section__title--intro strong {
   display: block;
+  color: var(--clr-act);
 }
 
 .section__subtitle {

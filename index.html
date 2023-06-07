@@ -1,74 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
 
-    <title>Vincent Scoma Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <button class="nav-toggle" aria-label="toggel navigation">
-        <span class="hamburger">
-          <i class="fa-solid fa-bars" id="hamburger"></i>
-          <i class="fa-solid fa-x" id="x-icon" style="display: none"></i>
-        </span>
-      </button>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#service" class="nav__link">What I Do</a></li>
-          <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-          <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 
-    <!-- Intro Section-->
-    <section class="intro" id="home">
-      <img
-        src="img/VS-Main.jpg"
-        alt="a picture of vincent"
-        class="intro__img"
-      />
-      <h1 class="section__title section__title--intro">
-        Hi, my name is <strong>Vincent Scoma</strong>
-      </h1>
-    </section>
+  <title>Vincent Scoma Portfolio</title>
+</head>
 
-    <!-- What I have done-->
-    <section class="my__services" id="service">
-      <h2 class="section__title section__title--services">What I do</h2>
-      <div class="services">
-        <div class="service">
-          <h3 class="service__title">Current Role</h3>
-          <p>
-            I am currently a Support Engineer in the E-commerce space. I help
-            troubleshoot front-end issues and provide API support for developers.
-            I utilize different skills I have learned to help debug issues or
-            provide techincal guidance on applying our API.
-            <br>
-            <br>
-            I also enjoy learning about programming and aspire to develop those skills further.
-          </p>
-        </div>
+<body>
+  <header>
+    <button class="nav-toggle" aria-label="toggel navigation">
+      <span class="hamburger">
+        <i class="fa-solid fa-bars" id="hamburger"></i>
+        <i class="fa-solid fa-x" id="x-icon" style="display: none"></i>
+      </span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#service" class="nav__link">What I Do</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <!-- <div class="service">
+  <!-- Intro Section-->
+  <section class="intro" id="home">
+    <img src="img/VS-Main.jpg" alt="a picture of vincent" class="intro__img" />
+    <h1 class="section__title section__title--intro">
+      Hi, my name is <strong>Vincent Scoma</strong>
+    </h1>
+  </section>
+
+  <!-- What I have done-->
+  <section class="my__services" id="service">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+      <div class="service">
+        <h3 class="service__title">Current Role</h3>
+        <p>
+          I am currently a Support Engineer in the E-commerce space. I help
+          troubleshoot front-end issues and provide API support for developers.
+          I utilize different skills I have learned to help debug issues or
+          provide techincal guidance on applying our API.
+          <br>
+          <br>
+          I also enjoy learning about programming and aspire to develop those skills further.
+        </p>
+      </div>
+
+      <!-- <div class="service">
           <h3>Title</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -87,109 +77,97 @@
             aliquip ex ea commodo consequat.
           </p>
         </div> -->
-      </div>
-      <a href="#work" class="btn">My Projects</a>
-    </section>
+    </div>
+    <a href="#work" class="btn">My Projects</a>
+  </section>
 
-    <!-- About Me-->
-    <section class="about-me" id="about">
-      <h2 class="section__title section__title-about">About Me</h2>
-      <p class="section__subtitle section__subtitle-about">
-        I am a passionate problem solver with experience in providing technical
-        support for a wide range of software applications. I have developed
-        skills in diagnosing issues, researching solutions, and providing clear
-        instructions for customers. I enjoy learning more about new technologies
-        and using my customer service skills to help provide the
-        best customer experience.
+  <!-- About Me-->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title-about">About Me</h2>
+    <p class="section__subtitle section__subtitle-about">
+      I am a passionate problem solver with experience in providing technical
+      support for a wide range of software applications. I have developed
+      skills in diagnosing issues, researching solutions, and providing clear
+      instructions for customers. I enjoy learning more about new technologies
+      and using my customer service skills to help provide the
+      best customer experience.
+    </p>
+
+    <div class="about__me-body">
+      <p></p>
+      <p></p>
+    </div>
+
+    <img src="img/VS-2.jpg" alt="photo of me" class="about-me__img" />
+  </section>
+
+  <!--My Work-->
+  <section class="my-work" id="work">
+    <h2 class="section__title section__title--work">My Projects</h2>
+    <p class="section__subtitle section__subtitle--work">
+      Here are a few projects I have worked on
+    </p>
+
+    <div class="portfolio">
+
+      <a href="https://codepen.io/Vscoma/pen/GRyebmW" class="portfolio__item">
+        <img src="https://codepen.io/Vscoma/pen/GRyebmW/image/large.png
+              " alt="" class="portfolio__img" />
+      </a>
+      <p class="project--summary">
+        I built this project while taking the Scribma <a href="https://scrimba.com/learn/frontend"
+          class="portfolio-link">Frontend Developer Career Path</a>.
+        Instead of using Scrimba APIs, I am using NASA's open API to fetch the image and the GNews API to fetch the
+        latest sports headline to reflect on my dashboard. I am also using the Open Weather API to display the user's
+        current weather.
       </p>
 
-      <div class="about__me-body">
-        <p></p>
-        <p></p>
-      </div>
 
-      <img src="img/VS-2.jpg" alt="photo of me" class="about-me__img" />
-    </section>
-
-    <!--My Work-->
-    <section class="my-work" id="work">
-      <h2 class="section__title section__title--work">My Projects</h2>
-      <p class="section__subtitle section__subtitle--work">
-        Here are a few projects I have worked on
+      <a href="https://codepen.io/Vscoma/pen/BaJLMdR" class="portfolio__item">
+        <img src="https://codepen.io/Vscoma/pen/BaJLMdR/image/large.png" alt="" class="portfolio__img" />
+      </a>
+      <p class="project--summary">
+        I also built this project while taking the Scribma <a href="https://scrimba.com/learn/frontend"
+          class="portfolio-link">Frontend Developer Career Path</a>.
+        This project uses the Bored Bot API and I added some vanilla JavaScript to change the background when the button
+        is clicked.
       </p>
 
-      <div class="portfolio">
-        
-            <a
-              href="https://codepen.io/Vscoma/pen/GRyebmW"
-              class="portfolio__item"
-            >
-              <img
-                src="https://codepen.io/Vscoma/pen/GRyebmW/image/large.png
-              "
-                alt=""
-                class="portfolio__img"
-              />
-            </a>
-            <p>
-                I built this project while taking the Scribma <a href="https://scrimba.com/learn/frontend" class="portfolio-link">Frontend Developer Career Path</a>. 
-                Instead of using Scrimba APIs, I am using NASA's open API to fetch the image and the GNews API to fetch the latest sports headline to reflect on my dashboard. I am also using the Open Weather API to display the user's current weather.
-            </p>
-         
-         
-          <a
-            href="https://codepen.io/Vscoma/pen/BaJLMdR"
-            class="portfolio__item"
-          >
-            <img
-              src="https://codepen.io/Vscoma/pen/BaJLMdR/image/large.png"
-              alt=""
-              class="portfolio__img"
-            />
-          </a>
-          <p>
-              I also built this project while taking the Scribma <a href="https://scrimba.com/learn/frontend" class="portfolio-link">Frontend Developer Career Path</a>. 
-              This project uses the Bored Bot API and I added some vanilla JavaScript to change the background when the button is clicked. 
-          </p>
-        
-       
-          <a
-            href="https://codepen.io/Vscoma/project/full/XpLovy"
-            class="portfolio__item"
-          >
-            <img src="img/weather app.png" alt="" class="portfolio__img" />
-          </a>
-          <p>
-              I built this weather app utilizing the Open Weather API. 
-              I wanted to have the background reflect the user's time, so I applied background images that change based on the time.
-          </p>
-        
-      </div>
-    </section>
 
-    <!--Footer-->
-    <footer class="footer">
-      <a href="mailto:vkscoma@gmail.com" class="footer-link"
-        >vkscoma@gmail.com</a
-      >
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://www.linkedin.com/in/vkscoma/">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://codepen.io/Vscoma">
-            <i class="fa-brands fa-codepen"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/Vkscoma">
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </li>
-      </ul>
-    </footer>
-    <script src="index.js"></script>
-  </body>
+      <a href="https://codepen.io/Vscoma/project/full/XpLovy" class="portfolio__item">
+        <img src="img/weather app.png" alt="" class="portfolio__img" />
+      </a>
+      <p class="project--summary">
+        I built this weather app utilizing the Open Weather API.
+        I wanted to have the background reflect the user's time, so I applied background images that change based on the
+        time.
+      </p>
+
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="footer">
+    <a href="mailto:vkscoma@gmail.com" class="footer-link">vkscoma@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/vkscoma/">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://codepen.io/Vscoma">
+          <i class="fa-brands fa-codepen"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/Vkscoma">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
 </html>

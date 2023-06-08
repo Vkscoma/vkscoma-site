@@ -117,11 +117,22 @@ strong {
 }
 
 .section__subtitle--note {
-  margin-bottom: 1em;
+  margin: 1em 0;
+  font-size: var(--fs-h4);
+}
+
+@media (max-width: 600px) {
+  .section__subtitle--work {
+    font-size: var(--fs-h4);
+  }
+
+  .section__subtitle--note {
+    font-size: var(--fs-body);
+  }
 }
 
 .section__subtitle--intro,
-.section__substilte-about {
+.section__substitle-about {
   background-color: var(--clr-act);
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);

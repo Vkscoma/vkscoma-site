@@ -206,6 +206,7 @@ header {
 
   .section__subtitle-about {
     margin: .8em 0 1em 0;
+    font-size: var(--fs-body);
   }
 }
 
@@ -380,7 +381,7 @@ header {
   box-shadow: var(--bs);
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;

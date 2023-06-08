@@ -23,6 +23,7 @@ html {
   --clr-light: #fff;
   --clr-dark: #303030;
   --clr-act: #536CF4;
+  --clr-act-secondary: #F4B35E;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -146,7 +147,7 @@ strong {
 }
 
 .section__subtitle--work {
-  color: var(--clr-act);
+  color: var(--clr-act-secondary);
   font-weight: var(--fw-bold);
 }
 
@@ -399,7 +400,10 @@ header {
 
 /* My Work */
 .my-work {
-  background-color: var(--clr-dark);
+  background: radial-gradient(circle, #4f51ff 3%, transparent 1%);
+  background-size: 3em 3em;
+  background-color: #0d1117;
+  opacity: 1;
   color: var(--clr-light);
   text-align: center;
 }
@@ -419,7 +423,7 @@ header {
 }
 
 .portfolio__item {
-  background-color: var(--clr-act);
+  background-color: var(--clr-act-secondary);
   overflow: hidden;
 }
 
@@ -444,7 +448,7 @@ header {
 }
 
 .portfolio__links {
-  color: var(--clr-act);
+  color: var(--clr-act-secondary);
   text-decoration: none;
   transition: all 250ms ease-in-out;
 }
@@ -468,7 +472,7 @@ header {
 
 /* footer */
 .footer {
-  background-color: #111;
+  background-color: #161b22;
   color: var(--clr-act);
   text-align: center;
   padding: 2.5em 0;

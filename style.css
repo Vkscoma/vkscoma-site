@@ -380,7 +380,7 @@ header {
   box-shadow: var(--bs);
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;

@@ -116,6 +116,10 @@ strong {
   font-size: var(--fs-h3);
 }
 
+.section__subtitle--note {
+  margin-bottom: 1em;
+}
+
 .section__subtitle--intro,
 .section__substilte-about {
   background-color: var(--clr-act);
@@ -127,7 +131,6 @@ strong {
 .section__subtitle--work {
   color: var(--clr-act);
   font-weight: var(--fw-bold);
-  margin-bottom: 2em;
 }
 
 /* header */
@@ -159,6 +162,10 @@ header {
   align-items: center;
   margin: 0;
   padding: 0;
+}
+
+.nav__social--list {
+  margin-top: 0 !important;
 }
 
 .nav__link {
@@ -398,6 +405,26 @@ header {
   opacity: 0.5;
 }
 
+.fa-brands,
+.portfolio__links {
+  margin-top: 1em;
+}
+
+.portfolio__links {
+  color: var(--clr-act);
+  text-decoration: none;
+  transition: all 250ms ease-in-out;
+}
+
+.portfolio__links:hover {
+  color: var(--clr-light);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.portfolio__links:focus {
+  color: var(--clr-light);
+}
+
 .portfolio-link {
   color: var(--clr-act);
 }
@@ -437,11 +464,13 @@ header {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 2em 0 0;
+  margin: .5em 0 0;
+  padding: 0;
 }
 
 .social-list__item {
   margin: 0 0.5em;
+  transition: all 200ms ease-in-out;
 }
 
 .social-list__link {

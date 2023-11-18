@@ -23,7 +23,7 @@ html {
   --clr-light: #fff;
   --clr-dark: #303030;
   --clr-act: #536CF4;
-  --clr-act-secondary: #F4B35E;
+  --clr-act-secondary: rgb(248, 194, 122);
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
